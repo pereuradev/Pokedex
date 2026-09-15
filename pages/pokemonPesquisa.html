@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesquisar Pokémons | Pokedex</title>
+    <link rel="stylesheet" href="/css/pokemonPesquisa.css" />
+    <script src="/Js/efeitos.js" defer></script>
+    <script src="/Js/Backend.js" defer></script>
+  </head>
+  <body>
+    <h1>Pesquisar Pokémons</h1>
+    <p class="apresentacao">
+      Aqui você poderá pesquisar pokémons específicos sem precisar adicioná-los
+      à sua pokedex.
+    </p>
+    <input
+      type="text"
+      id="pokemon-name"
+      placeholder="Digite o nome do Pokémon"
+      required
+    />
+    <button type="submit">Pesquisar</button>
+    <div id="pokemon-result">
+      <label for="pokemon-id">id:</label>
+      <input type="text" id="pokemon-id" onlyread />
+    </div>
+  </body>
+</html>

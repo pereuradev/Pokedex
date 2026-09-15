@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Pokedex</title>
+    <script src="/Js/efeitos.js" defer></script>
+    <script src="/Js/Backend.js" defer></script>
+    <link rel="stylesheet" href="/css/menus.css" />
+  </head>
+  <body>
+    <h1>Bem Vindo a Pokedex!</h1>
+    <p class="apresentacao">
+      seja muito bem-vindo, ao projeto que tem como objetivo ajudar a aprender
+      mais sobre os conceitos de programação e desenvolvimento com JS
+    </p>
+    <p>
+      Aqui você poderá encontrar informações sobre os pokemons, Você poderá
+      criar a sua própria pokedex, adicionando os pokemons que você mais gosta e
+      também poderá remover os pokemons que você não quer mais na sua pokedex.
+    </p>
+    <h1>Opções:</h1>
+
+    <div class="opcoes">
+      <button id="ver-pokemons" type="button" class="opcao">
+        <h2>Ver Pokémons</h2>
+        <p>Explore a lista completa de pokémons</p>
+      </button>
+      <button id="criar-pokedex" type="button" class="opcao">
+        <h2>Criar Pokedex</h2>
+        <p>Adicione seus pokémons favoritos</p>
+      </button>
+      <button
+        id="pesquisar-pokemons"
+        type="button"
+        onclick="irParaPokemonPesquisa()"
+        class="opcao"
+      >
+        <h2>Pesquisar Pokémons</h2>
+        <p>Encontre pokémons específicos sem colocar eles na sua pokedex</p>
+      </button>
+      <button id="editar-pokemons" type="button" class="opcao">
+        <h2>Editar Pokémons</h2>
+        <p>Edite os pokémons da sua pokedex</p>
+      </button>
+    </div>
+  </body>
+</html>
