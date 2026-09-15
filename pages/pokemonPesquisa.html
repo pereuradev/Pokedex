@@ -14,16 +14,20 @@
       Aqui você poderá pesquisar pokémons específicos sem precisar adicioná-los
       à sua pokedex.
     </p>
-    <input
-      type="text"
-      id="pokemon-name"
-      placeholder="Digite o nome do Pokémon"
-      required
-    />
-    <button type="submit">Pesquisar</button>
+    <input type="text" id="nome" placeholder="Digite o nome do Pokémon" />
+    <button type="button" onclick="ConsumirApi()" id="botao-pesquisar">
+      Pesquisar
+    </button>
     <div id="pokemon-result">
+      <!--id-->
       <label for="pokemon-id">id:</label>
-      <input type="text" id="pokemon-id" onlyread />
+      <input type="text" id="pokemon-id" readonly />
+      <!--Altura-->
+      <label for="pokemon-height">Altura:</label>
+      <input type="text" id="pokemon-height" readonly />
+      <!--Habilidades-->
+      <label for="pokemon-abilities">Habilidade 1:</label>
+      <input type="text" id="pokemon-abilities" readonly />
     </div>
   </body>
 </html>
