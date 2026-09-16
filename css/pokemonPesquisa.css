@@ -1,6 +1,6 @@
 @font-face {
   font-family: "SF Pro";
-  src: url("/fonts/SF-Pro.ttf") format("truetype");
+  src: url("../fonts/SF-Pro.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -9,4 +9,44 @@ body {
   color: white;
   background-color: #1a1a1a;
   text-align: center;
+}
+div.imagem-pokemon {
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 300px;
+  height: 250px;
+  border: 2px solid white;
+}
+p.imagem-label {
+  display: center;
+  margin: 0 auto;
+  font-size: 14px;
+  margin-top: 20px;
+}
+button.pesquisar {
+  background-color: rgb(19, 146, 7);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.dados-pokemon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
